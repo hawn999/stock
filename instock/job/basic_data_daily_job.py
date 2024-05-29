@@ -15,8 +15,7 @@ import instock.lib.database as mdb
 import instock.core.stockfetch as stf
 from instock.core.singleton_stock import stock_data
 
-__author__ = 'myh '
-__date__ = '2023/3/10 '
+
 
 
 # 股票实时行情数据。

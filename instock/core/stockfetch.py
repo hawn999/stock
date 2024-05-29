@@ -19,8 +19,7 @@ import instock.core.crawling.stock_fund_em as sff
 import instock.core.crawling.stock_fhps_em as sfe
 
 
-__author__ = 'myh '
-__date__ = '2023/3/10 '
+
 
 # 设置基础目录，每次加载使用。
 cpath_current = os.path.dirname(os.path.dirname(__file__))
@@ -70,7 +69,7 @@ def fetch_stocks_trade_date():
     return None
 
 
-# 读取当天股票数据
+# 读取当天基金数据
 def fetch_etfs(date):
     try:
         data = fee.fund_etf_spot_em()
@@ -104,6 +103,9 @@ def fetch_stocks(date):
     except Exception as e:
         logging.error(f"stockfetch.fetch_stocks处理异常：{e}")
     return None
+
+#读取当前股票数据（按指定时间间隔）
+
 
 
 # 读取股票资金流向

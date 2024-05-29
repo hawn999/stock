@@ -12,8 +12,7 @@ from functools import lru_cache
 import pandas as pd
 import requests
 
-__author__ = 'myh '
-__date__ = '2023/6/12 '
+
 
 
 def stock_individual_fund_flow_rank(indicator: str = "5日") -> pd.DataFrame:

@@ -9,8 +9,7 @@ from functools import lru_cache
 import pandas as pd
 import requests
 
-__author__ = 'myh '
-__date__ = '2023/5/22 '
+
 
 
 def fund_etf_spot_em() -> pd.DataFrame:

@@ -26,8 +26,6 @@ import strategy_data_daily_job as sdj
 import backtest_data_daily_job as bdj
 import klinepattern_data_daily_job as kdj
 
-__author__ = 'myh '
-__date__ = '2023/3/10 '
 
 
 def main():
@@ -57,3 +55,4 @@ def main():
 # main函数入口
 if __name__ == '__main__':
     main()
+    # bdj.main()

@@ -8,8 +8,7 @@ import requests
 import pandas as pd
 from functools import lru_cache
 
-__author__ = 'myh '
-__date__ = '2023/5/22 '
+
 
 
 def stock_zh_a_spot_em() -> pd.DataFrame:

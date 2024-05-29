@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-__author__ = 'myh '
-__date__ = '2023/5/11 '
+
 
 
 class web_module_data:
